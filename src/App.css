@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.divAll:hover {
+  transform: scale(1.1);     
+}
+.divPlaylists:hover {
+  transform: scale(1.1);     
+}
+.divPlaylist:hover {
+  transform: scale(1.1);     
+}
+li:hover{
+  transform: translateY(0px);
+  transform: translateX(20px);
+}
+.player button:hover{
+  transform:scale(1.1);
+}
+.iniSearDivs:active {
+  transform:scale(0.95);
+}
